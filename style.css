@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.main{
+
+	position: absolute;
+	word-spacing: 25px;
+	top: 15px;
+	right: 50px;
+	font-size: 22px;
+
+}
+.left{
+	position: absolute;
+	top: 8px;
+	left: 25px;
+	color: #800000
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 100px;
+}
+a{
+	text-decoration-line: none;
+}
+a:link{
+	color: black;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: red;
+
+}
+a:active{
+	color: green;
+}
+.main2{
+	position:relative;
+}
+.main3{
+	word-spacing: 35px;
+}
+.btn{
+	border-radius: 20px;
+	border-color: transparent;
+	background-color: white;
+	width: 100%;
+}
+.im{
+	background-color: black;
+	padding: 10px;
+	margin: 5px;
+	
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.main4{
+	display: flex;
+	position: relative;
+	margin-left: 40px;
+
+}
+
+.img1{
+	float: right;
+	margin-left: 40px;
+}
+.clearfix{
+	background-color: lightgrey;
+	overflow: auto;
+	padding: 10px;
+	margin-left: 40px;
+	margin-right: 38px;
+	margin-top: 50px;
+}
+p{
+	margin-left: 15px;
+	line-height: 1.5;
+	font-size: 22px;
+}
+.contact{
+	background-color: black;
+	color: #28a745;
+	
+}
+.par{
+	padding-left: 40px;
+}
+.icons{
+	list-style:none;
+	text-align: center;
+	word-spacing: 20px;
+	color: white;
+	font-size: 30px;
+}
+.icons a:link{
+	color: white;
+}
+.icons a:visited{
+	color: #28a745;
+}
+.icons a:hover{
+	color: #28a745;
+}
